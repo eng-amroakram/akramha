@@ -8,6 +8,7 @@ class WebPagesController extends Controller
 {
     public function landing()
     {
+        return redirect()->route('admin.login');
         return view('pages.web.landing');
     }
 }
